@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/micy"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Get Started"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp" />
+
+    <Button
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="sign in with facebook"
+        android:id="@+id/button"
+        android:layout_margintop="38dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="105dp"
+        android:background="@color/facebook"/>
+
+    <Button
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in with twitter"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal" android
+        android:background="@color/twitter"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Google +"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/google"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
